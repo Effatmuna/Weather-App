@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*App*/
+.app{
+    text-align: center;
+    backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(68, 57, 57, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    width: 30vw;
+    height: auto;
+    padding: 50px 40px;
+    color: rgb(239, 244, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.Weather{
+    margin-bottom: 20px;
+}
+.app input{
+    border: none;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+.details{
+    margin-top: 20px;
+   
+}
